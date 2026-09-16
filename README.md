@@ -24,14 +24,34 @@ This project is part of my deep RL learning journey. Huggy is a pre-built Unity 
    ```
 
 ## 📊 Results
-_(to be added — training in progress)_
+Trained for 2,000,000 timesteps using PPO. The agent's mean reward improved steadily during training, plateauing around **~3.7–4.1** in the final stages.
+
+| Metric | Value |
+|---|---|
+| Final Mean Reward (step 2M) | 3.743 |
+| Peak Mean Reward (step ~1.55M) | 4.093 |
+| Training Steps | 2,000,000 |
+| Algorithm | PPO |
+
+Trained model hosted on Hugging Face Hub: [Ebishj/Huggy](https://huggingface.co/Ebishj/Huggy)
 
 ## 🎥 Demo
-_(to be added)_
+Watch Huggy fetch the stick live in the interactive demo:
+🔗 [Play with Huggy on Hugging Face Spaces](https://huggingface.co/spaces/ThomasSimonini/Huggy)
+*(Search username: `Ebishj`, then select the `Huggy` model)*
+
+![Huggy Demo](results/huggy_screenshot.png)
+
+*(Demo video also available — see `results/` folder)*
 
 ## 📚 What I Learned
-_(to be added)_
+- Setting up and debugging a Python/conda environment for compatibility with ML-Agents on Google Colab
+- Configuring and tuning PPO hyperparameters (batch size, learning rate, discount factor, GAE)
+- Reading and interpreting training logs (mean reward, reward std) to monitor convergence
+- Managing training checkpoints and resuming interrupted training runs
+- Publishing a trained RL model and its config to the Hugging Face Hub
 
 ## 🔗 References
 - [Unity ML-Agents Toolkit](https://github.com/Unity-Technologies/ml-agents)
 - [Hugging Face Deep RL Course](https://huggingface.co/learn/deep-rl-course)
+- [My trained model on Hugging Face](https://huggingface.co/Ebishj/Huggy)
