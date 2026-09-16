@@ -1,4 +1,4 @@
-# Huggy — Reinforcement Learning with Unity ML-Agents
+# Huggy - Reinforcement Learning with Unity ML-Agents
 
 A hands-on deep reinforcement learning project where I trained **Huggy**, a virtual dog agent, to learn behaviors using Unity ML-Agents and the PPO (Proximal Policy Optimization) algorithm.
 
@@ -41,8 +41,6 @@ Watch Huggy fetch the stick live in the interactive demo:
 *(Search username: `Ebishj`, then select the `Huggy` model)*
 
 ![Huggy Demo](results/huggy_screenshot.png)
-
-🎬 [Watch the demo video](YOUR_YOUTUBE_OR_STREAMABLE_LINK_HERE)
 
 ## 📚 What I Learned
 - Setting up and debugging a Python/conda environment for compatibility with ML-Agents on Google Colab
