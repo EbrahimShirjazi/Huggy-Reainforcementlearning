@@ -42,7 +42,7 @@ Watch Huggy fetch the stick live in the interactive demo:
 
 ![Huggy Demo](results/huggy_screenshot.png)
 
-*(Demo video also available — see `results/` folder)*
+🎬 [Watch the demo video](YOUR_YOUTUBE_OR_STREAMABLE_LINK_HERE)
 
 ## 📚 What I Learned
 - Setting up and debugging a Python/conda environment for compatibility with ML-Agents on Google Colab
